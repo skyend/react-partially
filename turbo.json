@@ -1,0 +1,9 @@
+{
+  "pipeline": {
+    "build-app-ui": {
+      "inputs": [
+        "../../apps/app-ui/src/pages/**"
+      ]
+    }
+  }
+}

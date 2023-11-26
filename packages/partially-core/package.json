@@ -1,0 +1,14 @@
+{
+  "name": "@partially/core",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access=public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

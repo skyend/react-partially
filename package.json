@@ -1,0 +1,27 @@
+{
+  "name": "react-partial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-app-ui": "pnpm run --filter app-ui build-with-turbo"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*",
+    "design-system/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^5.11.3",
+    "esbuild": "^0.19.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.20.0",
+    "react-router-dom": "^6.20.0",
+    "turbo": "^1.10.16"
+  }
+}

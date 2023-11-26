@@ -1,0 +1,7 @@
+.idea/
+node_modules/
+*.js
+*.jsx
+*.log
+.turbo/
+dist/
